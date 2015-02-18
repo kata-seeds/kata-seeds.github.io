@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Kata Seeds by kata-seeds</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Kata Seeds</h1>
+        <h2>Ready-to-go projects to help you get started quickly with a code exercise</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/kata-seeds" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p>See the full list of Kata Seeds at <a href="https://github.com/kata-seeds">github.com/kata-seeds</a></p>
+
+<h2>
+<a id="tips-for-making-a-kata-seed" class="anchor" href="#tips-for-making-a-kata-seed" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tips for making a Kata Seed</h2>
+
+<h3>
+<a id="use-the-template" class="anchor" href="#use-the-template" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use the template</h3>
+
+<p>Copy <a href="https://github.com/kata-seeds/kata-seed-template">kata-seed-template</a> (don't fork it) and start from there. If there's something you think would benefit all Kata Seeds, open a pull request on the template.</p>
+
+<h3>
+<a id="name-your-kata-seed" class="anchor" href="#name-your-kata-seed" aria-hidden="true"><span class="octicon octicon-link"></span></a>Name your Kata Seed</h3>
+
+<p>If you're only using the core language and standard library, the name should be <code>language-seed</code>. If you have to use/install a dependency to run the tests, the name should be <code>language-framework-seed</code> instead.</p>
+
+<h3>
+<a id="just-run-make" class="anchor" href="#just-run-make" aria-hidden="true"><span class="octicon octicon-link"></span></a>Just run <code>make</code>
+</h3>
+
+<p>Makefiles are executable documentation. Someone can run <code>make</code> to run the tests, but also read the <code>Makefile</code> and see how the tests are run and dependencies are installed. Try your best to ensure someone can run <code>make</code> and get the tests running. The less someone has to do to get up and running, the more time they can spend learning the language instead of the tooling.</p>
+
+<p>Ideally, the behavior would be:</p>
+
+<ul>
+<li>Run <code>make</code> the first time: Dependencies are installed, and the tests run.</li>
+<li>Run <code>make</code> subsequent times: Dependencies are checked, and the tests run. The dependency checking should be near-instantaneous.</li>
+</ul>
+
+<h3>
+<a id="commit-exact-dependency-versions" class="anchor" href="#commit-exact-dependency-versions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Commit exact dependency versions</h3>
+
+<p>The last thing someone wants to deal with when practicing a kata is bugs in dependencies. Pin the the dependencies to exact versions, or commit a dependency lock file if your language has one.</p>
+      </section>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-59852558-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
