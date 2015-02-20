@@ -14,6 +14,10 @@ Copy [kata-seed-template](https://github.com/kata-seeds/kata-seed-template) (don
 
 If you're only using the core language and standard library, the name should be `language-seed`. If you have to use/install a dependency to run the tests, the name should be `language-framework-seed` instead.
 
+### Write the code
+
+The code in the seed should implement a simple way to greet a person, plus a test that it works. Implement that functionality in whatever way is most natural in your language. To get an idea of how small the implementation should be, you should read the implementations in a few seeds that use similar languages to yours.
+
 ### Just run `make`
 
 Makefiles are executable documentation. Someone can run `make` to run the tests, but also read the `Makefile` and see how the tests are run and dependencies are installed.
